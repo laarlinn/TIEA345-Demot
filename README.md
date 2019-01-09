@@ -7,10 +7,6 @@ Tekijä: Lauri Linna
 ### [Demo 1: Raspbian](/demo1)
 
 ### Demo 2
--
 ### Demo 3
--
 ### Demo 4
--
 ### Demo 5
--
