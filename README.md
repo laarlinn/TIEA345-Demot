@@ -4,9 +4,7 @@ Tekijä: Lauri Linna
 
 ## Demotehtävät
 
-### Demo 1
-- [Demo 1 tehdyt tehtävät]()
-- [Demo 1-kansio]()
+### [Demo 1](/demo1)
 
 ### Demo 2
 -
