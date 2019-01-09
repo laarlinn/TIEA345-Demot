@@ -4,7 +4,7 @@ Tekijä: Lauri Linna
 
 ## Demotehtävät
 
-### [Demo 1](/demo1)
+### [Demo 1: Raspbian](/demo1)
 
 ### Demo 2
 -
