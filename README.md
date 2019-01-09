@@ -6,7 +6,7 @@ Tekijä: Lauri Linna
 
 ### [Demo 1: Raspbian](/demo1)
 
-### Demo 2
-### Demo 3
-### Demo 4
-### Demo 5
+### Demo 2 - kesken
+### Demo 3 - kesken
+### Demo 4 - kesken
+### Demo 5 - kesken
