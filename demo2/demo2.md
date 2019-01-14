@@ -11,4 +11,4 @@ pip3 install RPi.GPIO
 ```
 
 ## Video ledistä
-Linkki tähän
+Linkki tähän.
