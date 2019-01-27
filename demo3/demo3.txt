@@ -24,13 +24,14 @@ Otin kuvan komennolla
 ```
 raspistill -o testi1.jpg
 ```
-Video: https://www.youtube.com/watch?v=A-g7uoHJJtI&feature=youtu.be
+Video: https://www.youtube.com/watch?v=7o64axyLSFs&feature=youtu.be
 
 Otin videon komennolla
 ```
-raspivid -o testivideo.h264 -w 1280 -h 720 -t 20000
+raspivid -o testivideo.h264 -w 1280 -h 720 -t 15000
 ```
-(timeout-argumentti oli hyvin epätarkka, arvolla `-t 15000` video oli oikeasti vain n. 10 s. pituinen. Arvolla `20000` videosta taas n. 23 s. pituinen.)
+-t -argumentti toimi melko epätarkasti, videosta tuli n. 17 s. pituinen..
+
 Rajoitin videon resoluutiota argumenteilla `-w ja -h`.
 
 
