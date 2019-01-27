@@ -1,6 +1,6 @@
 # Demo 3: Lämpötila-anturi ja kamera
 ## 3.1
-Ajamalla `python3 lampotila.py` näyttöön tulostuu:
+Ks. `lampotila.py`. Ajamalla `python3 lampotila.py` näyttöön tulostuu:
 
 ```
 pi@raspberrypi:~/demo3 $ python3 lampotila.py
@@ -9,12 +9,13 @@ Ilmankosteus: 21.0, lämpötila: 19.0
 ## 3.2
 Loin Googlen Developer Consolessa uuden projektin `tiea345`, enabloin Google Sheets API:n, ja loin uuden Service Accountin. Latasin JSON-tiedoston ja siirsin sen raspille.
 
-client_email:
+Ote JSON-tiedostosta:
 ```
 "client_email": "tiea345@tiea345-229916.iam.gserviceaccount.com",
 ```
+Asensin gspread- ja openauth2client-kirjastot. Ks. `lampotila_gdocs.py`.
+Taulukko jaettu opettajaryhmälle.
 
-Taulukko jaettu.
 
 ## 3.3
 Kuva: https://drive.google.com/open?id=1Y-KS--hmIgppUxRHotX5BHsbFQZgmwBC
@@ -29,8 +30,12 @@ Otin videon komennolla
 ```
 raspivid -o testivideo.h264 -w 1280 -h 720 -t 20000
 ```
-(argumentilla `-t 15000` video oli oikeasti vain n. 10 s. pituinen. Arvolla `20000` videosta tuli n. 15 s. pituinen.)
-Rajoitin videon kokoa argumenteilla `-w ja -h`.
+(timeout-argumentti oli hyvin epätarkka, arvolla `-t 15000` video oli oikeasti vain n. 10 s. pituinen. Arvolla `20000` videosta taas n. 23 s. pituinen.)
+Rajoitin videon resoluutiota argumenteilla `-w ja -h`.
+
+
+## 3.4
+Ks. `pir-kamera.py`.
 
 ## 3.5
 Ajoin
@@ -43,7 +48,7 @@ Lisäsin rivin
 ```
 
 Nyt kuva tallentuu tasatunnein kotihakemistoon.
-
+Tarkistin tämän parin tunnin jälkeen ajamalla `ls -al`.
 ## 3.6
 Käytin tehtävässä Pythonia ja Flaskia.
 Koodi löytyy tiedostosta server-app.py.
