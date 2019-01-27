@@ -14,6 +14,7 @@ worksheet = sh.sheet1
 humidity, temp = lampotila.get_temp()
 print(humidity, temp)
 
+# Käytin tätä aluksi taulukon tyhjentämiseen.
 # worksheet.resize(1)
 
 worksheet.append_row([str(temp), str(humidity), str(datetime.datetime.now())])
