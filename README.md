@@ -10,5 +10,5 @@ Tekijä: Lauri Linna
 
 ### [Demo 3: Lämpötila/Kamera](/demo3) - :heavy_check_mark:
 
-### Demo 4 - kesken
+### [Demo 4: Lämpötila/Kamera](/demo4) - :heavy_check_mark:
 ### Demo 5 - kesken
