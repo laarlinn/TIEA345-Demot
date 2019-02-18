@@ -11,4 +11,4 @@ Tekijä: Lauri Linna
 ### [Demo 3: Lämpötila/Kamera](/demo3) - :heavy_check_mark:
 
 ### [Demo 4: Motion/OpenCV](/demo4) - :heavy_check_mark:
-### Demo 5 - kesken
+### [Demo 5: C-kieli](/demo5) - :heavy_check_mark:
